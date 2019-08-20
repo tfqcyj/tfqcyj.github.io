@@ -4,7 +4,7 @@ let productList = [
         "title": "美国七彩野山鸡"
     }, {
         "url": "../assets/img/kqlysj1.jpeg",
-        "title": "孔雀蓝野山鸡"
+        "title": "美国七彩野山鸡"
     }, {
         "url": "../assets/img/kqlysj.jpeg",
         "title": "孔雀蓝野山鸡"
