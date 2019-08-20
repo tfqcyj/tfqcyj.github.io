@@ -1,0 +1,157 @@
+.content-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wapper {
+    padding-bottom: 50px;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+}
+
+.header .content-width {
+    color: #23760e;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.company-intro {
+    background: #23760e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.company-intro .text {
+    color: white;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    text-shadow: 5px 2px 6px #000;
+}
+
+.wp-title-content {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_content {
+    color: rgb(106, 168, 79);
+    font-family: 微软雅黑;
+    font-size: 18px;
+    text-align: center
+}
+
+.title_content-line {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title_content-line .line {
+    height: 1px;
+    background: rgb(106, 168, 79);
+    width: 100px;
+}
+
+
+.title_content-line .circle {
+    background: rgb(106, 168, 79);
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.wp-title-content>div:last-child {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/*价值体现*/
+.wp-function .content-function {
+    margin-top: 20px;
+
+}
+
+.wp-function .content-function ul {
+    list-style: disc outside;
+}
+
+.wp-function .content-function ul li {
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.wp-function .content-function ul li strong {
+    font-size: 16px;
+}
+
+/*联系我们*/
+.content-contact-us div {
+    margin-bottom: 10px;
+}
+
+/*产品中心*/
+.wp-product .content-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wp-product .content-product:after{
+    content: '';
+    width: 24%;
+}
+
+
+.wp-product .content-product .item {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.wp-product .content-product .item div:first-child{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wp-product .content-product .item img{
+
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+
+
+    object-fit:cover
+
+}
+
+.wp-product .content-product .item:hover {
+    box-shadow: rgba(217, 234, 211, 1) 0px 0px 2px 2px;
+    webkit-box-shadow: rgba(217, 234, 211, 1) 0px 0px 2px 2px;
+}
+
+.wp-product .content-product .item div:last-child {
+    margin-top: 10px;
+}
+
+.wp-product .content-product .item div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
